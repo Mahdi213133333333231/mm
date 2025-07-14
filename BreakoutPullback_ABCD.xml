@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<project name="BreakoutPullback_ABCD" symbol="XAUUSD" period="30" magicNumber="123456" lots="0.1">
+  <description>Expert Advisor for Breakout Pullback Pattern (A-B-C-D) - Buy &amp; Sell logic (M30, XAUUSD)</description>
+  <blocks>
+    <block id="1" type="once_per_bar" x="100" y="100"/>
+    <block id="2" type="comment" x="300" y="100">
+      <param name="text">شروع اجرای اکسپرت Pullback در تایم M30 - نماد XAUUSD</param>
+    </block>
+  </blocks>
+  <connections>
+    <connection from="1" to="2"/>
+  </connections>
+</project>
